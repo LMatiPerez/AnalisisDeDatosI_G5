@@ -13,7 +13,6 @@ class EncuestaHogares:
             "CH04": "sexo",
             "CH06": "edad",
             "P47T": "ingreso",
-            "PONDII": "ingreso_ponderado",
             "NIVEL_ED": "nivel_educativo",
             "ESTADO": "estado_actividad",
             "CODUSU": "id_vivienda",
