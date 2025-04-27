@@ -18,5 +18,5 @@ def etiquetas_porcentaje_total(g):
         labels = []
         s = sum(bars.datavalues)
         for j, bar in enumerate(bars.datavalues):
-            labels.append(f"{bar*100/s:.0f}%")
+            labels.append(f"{bar*100/s:.1f}%")
         g.bar_label(bars, labels=labels)
